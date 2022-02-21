@@ -1,0 +1,55 @@
+h2{
+    /* font-family: 'Fairy Tale', sans-serif; */
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight:lighter;
+    font-family: 'Eusthalia Clean', sans-serif;                                              
+                                                
+}
+
+body{
+    background-color: rgb(118, 178, 231);
+}
+
+#mouse{
+    float: right;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+h3{
+    color: white;                
+    font-family: 'Gudvayne', sans-serif;
+    text-align: justify;                                                                        
+    font-weight:100;
+    font-size: 30px;
+    margin-left: 0;
+    padding: 10px;
+    margin: 70px;
+}
+
+#cinderella, #wizard{
+    float:left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+h4{
+    /* font-family: 'Fairy Tale', sans-serif; */
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    font-weight:lighter;
+    font-family: 'Eusthalia Clean', sans-serif;                                              
+    margin-right: 85px;                               
+}
+
+#prince{
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 50px;
+    float: right;
+    margin-bottom: 30px;
+}
+
