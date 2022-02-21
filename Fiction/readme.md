@@ -2,7 +2,7 @@
 
 ## The Idea
 
-The goal of this project is to produce a fairytale that deviates from the typical and traditional ones that everyone is used to. To do that, we created a fairytale that has a white male name as the main character, is very negative, and does not have a happy ending, as people would expect the opposite. The processes that we explored in this project are the use of Textblob, the Text-To-Speech feature, Regex, and forms in Colab. 
+The goal of this project is to produce a fairytale that deviates from the typical and traditional ones that everyone is used to. To do that, we created a fairytale that has a white male name as the main character, is very negative, and does not have a happy ending, as people would expect the opposite. The processes that we explored in this project are the use of Textblob, the Text-To-Speech feature, Regex, and forms in Colab. The link to the website could be found [here](https://aliawaleed.github.io/SoftwareArt/Fiction/index.html)! 
 
 ## The Algorithm/Process
 
