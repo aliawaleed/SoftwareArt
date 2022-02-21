@@ -1,0 +1,17 @@
+# Not a Cinderella Story
+
+## The Idea
+
+The goal of this project is to produce a fairytale that deviates from the typical and traditional ones that everyone is used to. To do that, we created a fairytale that has a white male name as the main character, is very negative, and does not have a happy ending, as people would expect the opposite. The processes that we explored in this project are the use of Textblob, the Text-To-Speech feature, Regex, and forms in Colab. 
+
+## The Algorithm/Process
+
+We started off by getting the text for the Cinderella story, one of the most popular fairytales of all time, to see if people would be able to notice it. The next step in the code was to scrape the text from the internet without anything additional. This text is then taken into a Textblob so that the procedures that we aimed to do could be done. We created an array of all of the negative sentences in the story, meaning we got the sentences with a sentiment < 0. These sentences were then stored in an array (in order, so that the story makes some kind of sense) followed by a string to be able to do the next steps. 
+
+We then encountered a problem whenever we printed the text. The text would be split and printed at random places that aren’t an end of line or paragraph. This issue took us hours to resolve until we found that the lines were separated by “\$”, which we then used to split the text into an array again, and then we replaced the “\r\n” with a space. This resulted in having the full text as one line or string, with correct printing, and without any external characters. 
+
+The next thing we did was create an array for words to substitute the names and pronouns to those of male characters instead, using Regular Expressions. At this point, we had the text that we wanted, with male characters and negative sentences. We then wanted to increase the randomization in the text. The next steps also took us hours to complete and resolve the issues that we faced. We used Textblob once again to find the adjectives, get their synonyms, and store all of the information in a dictionary, with the adjective as the key and the synonyms for values. The issue we were facing was getting an unequal number of synonyms by Textblob for each adjective. However, this was solved by using the dictionary. 
+
+Next, we got the whole text again and replaced all of the adjectives with a random word from its synonyms. The point was to have a randomized and different output every time the program is run and look at the variation in the emphasis when the adjective is more or less descriptive than the original word. Our goal was to provide quite an unhappy text, mainly using negative words/sentences, and therefore contract what is generally considered to be a fairytale. There are many different synonyms we could use for our spot so randomly choosing each one gives a very different combination in the end, yet with similar meaning. Although sentences are related, depending on the user, there might be a slight feeling of nonsense. 
+
+This is followed by Text-To-Speech where the user is given the choice to have the story narrated, or read by the computer. By default, the response is set as no, and the user can choose to change it using the drop-down menu. The point is to give the user the impression that this is an actual story that they could listen to and follow along with. All of such information is displayed on a website that is more visually appealing, using cartoon fonts and images that would engage the reader. 
