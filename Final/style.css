@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap');
+
+body{
+    /* background-color: bisque; */
+    background-image: url('https://cdn.wallpapersafari.com/90/80/nkMvbj.jpg');
+    background-repeat: repeat-y;
+    background-size: 1600px;
+}
+
+#firstcontainer{
+    font-family: Patrick Hand SC;
+    font-size: 24px;
+    text-align: justify;
+    padding-top: 0.5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: rgb(243 224 203);
+    width: 1000px;
+    margin: auto;
+    box-shadow: /*shadows of the different layers*/
+      0 -1px 1px rgba(0,0,0,0.15),
+      0 -10px 0 -5px rgb(243 224 203),
+      0 -10px 1px -4px rgba(0,0,0,0.15),
+      0 -20px 0 -10px rgb(243 224 203),
+      0 -20px 1px -9px rgba(0,0,0,0.15);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(220, 218, 218);
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    margin-top: 3%;
+    text-align:center;
+    background: rgb(243 224 203);
+    position: relative;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.container,
+.container::before,
+.container::after {
+  /* Styles to distinguish sheets from one another */
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+  border: 1px solid rgb(184, 184, 184);
+}
+
+.container::before,
+.container::after {
+  content: "";
+  position: absolute;
+  height: 95%;
+  width: 99%;
+  background-color: rgb(243 224 203);
+}
+
+.container::before {
+  right: 15px;
+  top: 0;
+  transform: rotate(-1deg);
+  z-index: -1;
+}
+
+.container::after {
+  top: 5px;
+  right: -5px;
+  transform: rotate(1deg);
+  z-index: -2;
+}
+
+h1{
+    font-family: Brush Script MT;
+    font-size: 60px;
+    /* margin-bottom: 3%; */
+    color: rgb(243 224 203);
+    font-weight: lighter;
+    text-shadow: 0 0 10px grey, 0 0 10px black;
+}
+
+.tit{
+    display: inline-block;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#cind{
+    object-fit: cover;
+    object-position: 0% 12%;
+}
+
+#alice{
+    object-fit: cover;
+    object-position: 0% 30%;
+}
+
+#beauty{
+    object-fit: cover;
+    object-position: 0% 38%;
+}
+
+.fix_image{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+}
+
+.option{
+    margin-top: 2%;
+    display:inline-block;
+    border-radius: 50%;
+    width: 7cm;
+    height: 7cm;
+    box-shadow: 4px 4px 10px black;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.option:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+* {box-sizing: border-box;}

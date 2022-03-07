@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Fairytales</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1 class="tit"> Not a Traditional Fairytale</h1>
+        <img class="tit" id="gender" width="50" src="https://www.pngrepo.com/png/103421/512/genders-symbol.png"
+            alt="genders">
+    </div>
+
+    <div class="firstcontainer" id="firstcontainer">
+        <!-- container to display the printed text -->
+    </div>
+
+    <div class="title">
+        <h1 class="tit">Guess The Story</h1>
+    </div>
+
+    <div class="container" id="container">
+        <!-- container to display the images of the stories -->
+        <div class="options">
+            <div class="fix_image"><img id="cind" class="option"
+                    src="https://i.pinimg.com/originals/e5/41/4f/e5414fbb3783221eab309233432f3be8.png" alt="cinderella"
+                    onclick="checkImg('cind')"></div>
+            <div class="fix_image"><img id="snow" class="option"
+                    src="https://i.pinimg.com/originals/e9/16/1a/e9161a644ea37cc62e9878b34dcfc07e.png" alt="snow white"
+                    onclick="checkImg('snow')"></div>
+            <div class="fix_image"><img id="alice" class="option"
+                    src="https://i.pinimg.com/originals/5b/3d/52/5b3d5227f8a42958b4698a4dc6c25ca0.jpg"
+                    alt="alice in wonderland" onclick="checkImg('alice')"></div>
+            <div class="fix_image"><img id="red" class="option"
+                    src="https://64.media.tumblr.com/8a084dfbff23deb6e1510b843abf89f1/tumblr_p58ogss3iP1wc1acpo1_500.png"
+                    alt="red riding hood" onclick="checkImg('red')"></div>
+            <div class="fix_image"><img id="beauty" class="option"
+                    src="https://i.pinimg.com/originals/73/58/26/735826fd6febaf0756bbc384226e524e.jpg"
+                    alt="beauty and the beast" onclick="checkImg('beauty')"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</body>
+
+</html>
