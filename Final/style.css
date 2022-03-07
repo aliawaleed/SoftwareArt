@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC&display=swap');
 
 body{
-    /* background-color: bisque; */
-    background-image: url('https://cdn.wallpapersafari.com/90/80/nkMvbj.jpg');
-    background-repeat: repeat-y;
-    background-size: 1600px;
+    background-image: url('https://wallpaperaccess.com/full/554974.jpg');
+    background-size: 3000px;
 }
+
+#gender{filter: drop-shadow(3px 4px 3px wheat);}
 
 #firstcontainer{
     font-family: Patrick Hand SC;
-    font-size: 24px;
+    font-size: 28px;
     text-align: justify;
     padding-top: 0.5%;
     padding-left: 3%;
@@ -74,15 +74,23 @@ body{
 h1{
     font-family: Brush Script MT;
     font-size: 60px;
-    /* margin-bottom: 3%; */
     color: rgb(243 224 203);
     font-weight: lighter;
-    text-shadow: 0 0 10px grey, 0 0 10px black;
+    text-shadow:0 5px black, 0 5px grey;
 }
 
-.tit{
-    display: inline-block;
+h2{
+    font-family: Brush Script MT;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(243 224 203);
+    font-weight: lighter;
+    text-shadow: 0 5px black, 0 5px grey;
+    margin-bottom: 0;
+    margin-top: 2%;
 }
+
+.tit{display: inline-block;}
 
 .title{
     text-align: center;
